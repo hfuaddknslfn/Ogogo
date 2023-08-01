@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Montserrat:wght@200;400;500;700&family=Roboto:wght@300;400;500;700;900&display=swap');
+* {
+    margin: 0;
+    top: 0;
+    box-sizing: border-box;
+    font-family: 'roboto';
+    header {
+        .logo{
+        display: flex;
+        align-items: center;
+        padding: 0 100px 0 0;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .logo img {
+      height: 22px;
+      width: 22px;
+    }
+    .header-wrapper {
+        display: flex;
+        flex-direction: row;
+        gap: 100px;
+        justify-content: center;
+        padding: 0 450px 0 200px;
+        font-size: 14px;
+        align-items: center;
+    }
+    .ass {
+        text-decoration: none;
+        color: #000;
+    }
+}
+
+.container1 {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+.container1-inside {
+    display: flex;
+    flex-direction: row;
+    .cont-inside {
+        flex-direction: column;
+        padding: 100px 80px 0 100px;
+        font-size: 35px;
+        font-weight: 100;
+         .bottom1  {
+        padding: 0 60px 0 60px;
+        background: skyblue;
+        border: 1px solid skyblue;
+        text-decoration: none;
+        color: #fff;
+        }
+    }
+}
+}
+}
+
